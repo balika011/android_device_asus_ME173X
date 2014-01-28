@@ -7,7 +7,9 @@ on init
     export ANDROID_ROOT /system
     export ANDROID_DATA /data
     export EXTERNAL_STORAGE /sdcard
-    export INTERNAL_STORAGE /sdcard0
+    
+# BSydz Add support for internal storage
+    export INTERNAL_STORAGE /internal_sd
 
     symlink /system/etc /etc
 
@@ -15,7 +17,10 @@ on init
     mkdir /recovery
     mkdir /misc
     mkdir /sdcard
-    mkdir /sdcard0
+    
+# BSydz Add support for internal storage
+    mkdir /internal_sd
+    
     mkdir /sd-ext
     mkdir /system
     mkdir /data
