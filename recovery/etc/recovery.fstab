@@ -7,7 +7,7 @@
 /recovery	emmc		/dev/recovery
 /system		ext4		/dev/block/mmcblk0p5
 
-    # BSydz Add support for internal storage
+  # BSydz Add support for internal storage
 /internal_sd 	datamedia	/dev/null
 
 /sdcard 	vfat		/dev/block/mmcblk1p1    /dev/block/mmcblk1
