@@ -188,7 +188,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/gadget/lun%d/fil
 
 
 
-BOARD_CUSTOM_BOOTIMG_MK := device/asus/ME173X/prebuilt_boot.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/asus/ME173X/custombootimg.mk
 
 # Releasetools
 TARGET_PROVIDES_RELEASETOOLS := true
